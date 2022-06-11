@@ -1,0 +1,831 @@
+@import url(reset.css);
+a {
+    display: block;
+    text-decoration: none;
+    color: #3F5D45;
+  }
+.container {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball02.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball01.svg");
+    background-position: right top, 120% 55%, -30% 20%;
+    background-repeat: no-repeat, no-repeat;
+}
+.wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.pay {
+    display: block;
+    background: #FF5D50;
+    border-radius: 27px;
+    border: none;
+    opacity: 1;
+    padding: 12px 32px;
+    text-decoration: none;
+    color: white;
+}
+.pay:hover{
+    background: #e13a2f;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 217px;
+}
+.banner img {
+    width: 532px;
+    height: 532px;
+}
+.banner h2 {
+    color: #56C4C5;
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 26px;
+}
+.banner h3 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+.banner h4 {
+    font-size: 18px;
+    line-height: 29px;
+}
+.platform h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 46px;
+    margin-bottom: 48px;
+}
+.platform_type {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.platform_type li {
+    text-align: center;
+    width: 23%;
+}
+.platform_type img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 24px;
+}
+
+.platform_type h3 {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.platform_type p {
+    color: #747474;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 24px;
+}
+
+.role {
+    margin-bottom: 100px;
+
+}
+
+.role h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 46px;
+    margin-bottom: 16px;
+}
+
+.role_p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 48px;
+}
+
+.role_card {
+    display: flex;
+    justify-content: space-between;
+}
+.role_card li {
+    width: 24%;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px #00000014;
+}
+.role_card img {
+    width: unset;
+    border-radius: 12px 12px 0px 0px;
+    background-color: white;
+}
+
+.role_text {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.role_text h2 {
+    font-size: 16px;
+    color: #56C4C5;
+    font-weight: bold;
+}
+
+.role_text p {
+    font-size: 16px;
+    color: #221E1F;
+}
+.client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.client_item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-shrink: 1;
+    margin-bottom: 47px;
+    margin-right: 28px;
+}
+.client_item li {
+    width: 40%;
+    padding: 32px 32px 48px;
+    border: none;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+}
+.item_img {
+    width: 86px;
+    height: 86px;
+    padding: 17px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+.client_item img {
+    width: 52px;
+    height: 52px;
+}
+
+.client_item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #221E1F;
+    margin-bottom: 16px;
+}
+
+.client_item p {
+    font-size: 16px;
+    color: #221E1F;
+    line-height: 1.5;
+}
+
+.target {
+    margin-right: 47px;
+    margin-bottom: 28px;
+}
+
+.robot {
+    margin-bottom: 28px;
+}.role h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 46px;
+    margin-bottom: 16px;
+}
+
+.role_p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 48px;
+}
+.role_card {
+    display: flex;
+}
+.chat {
+    margin-right: 47px;
+}
+.client_text {
+    width: 50%;
+}
+.client_text h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 46px;
+    margin-bottom: 16px;
+    color: #221E1F;
+}
+.client_text p {
+    font-size: 18px;
+    color: #221E1F;
+    margin-bottom: 24px;
+    line-height: 24px;
+}
+.client_text a{
+    background-color: #56C4C5;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    text-decoration: none;
+    width: 128px;
+}
+
+.praise {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    padding-left: 70px;
+    padding-right:70px;;
+
+}
+.praise h2 {
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 104px;
+}
+
+.praise_item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 134px;
+}
+.praise_item li {
+    width: 32%;
+    position: relative;
+    border-radius: 12px;
+    padding: 48px 32px 24px 32px;
+    box-shadow: 0px 2px 10px #00000014;
+    background-color: white;
+}
+.praise_item>li>img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -60px;
+    border-radius: 50%;
+}
+
+.praise_item p {
+    padding-bottom: 24px;
+    color: #221E1F;
+    line-height: 24px;
+    border-bottom: 2px solid #E5E4E2;
+    margin-bottom: 28px;
+}
+
+.praise_item h3 {
+    color: #221E1F;
+    line-height: 24px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.comment_start {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    height: 503px;
+    background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.footer a {
+    display: inline-block;
+    background: #56C4C5;
+    border-radius: 27px;
+    border: none;
+    opacity: 1;
+    padding: 12px 32px;
+    text-decoration: none;
+    color: white;
+    width: 128px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.footer p {
+    background-color: #F5F5F5;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media (max-width:767px){
+.container {
+        background-image:
+            url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg'),
+            url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball02.svg');
+        background-position: 40% 6%, 150% 60%;
+        background-size: 85%, 200px;
+ }
+ .wrap {
+    padding: 0px 25px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 199;
+    border-bottom: 2px solid #FFD153;
+    padding: 24px 20px;
+    background-color: white;
+   padding-top: 24px;
+}
+.banner {
+    flex-direction: column;
+    padding-top: 150px;
+    margin-bottom: 90px;
+}
+.banner img {
+    width: 400px;
+    height: 400px;
+}
+.role_card {
+    flex-wrap: wrap;
+}
+.role_card li {
+    width: 48%;
+    margin-bottom: 30px;
+}
+.client {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0 0 20px;
+}
+.client_item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-shrink: 1;
+    margin-bottom: 47px;
+    margin-right: 28px;
+}
+.client_item {
+    width: 90%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.client_item li {
+    width: 70%;
+    margin-bottom: 50px;
+}
+.target{
+    margin-left: 70px;
+}
+.robot{
+    margin-left: 30px;
+}
+.chat{
+    margin-left: 70px;
+}
+.group{
+    margin-left:30px;
+}
+.client_text {
+    text-align: center;
+    width: 100%;
+    animation: flex-start; 
+    margin-bottom: 32px;
+}
+.praise {
+    background-image: none;
+}
+.praise_item {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.praise_item li {
+    width: 32%;
+    position: relative;
+    border-radius: 12px;
+    padding: 48px 32px 24px 32px;
+    box-shadow: 0px 2px 10px #00000014;
+    background-color: white;
+}
+.praise_item li {
+    width: 70%;
+    margin-bottom: 80px;
+}
+.comment_start {
+    display: block;
+}
+
+.comment_start span {
+    display: block;
+    margin-bottom: 10px;
+}
+}
+@media (max-width:375px){
+    .container {
+        background-position: 35% 5%, 180% 30%;
+        background-size: 100%, 200px;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .banner {
+        margin-top: 130px;
+        padding-top: 50px;
+    }
+    .banner img {
+        width: 300px;
+        height: 300px;
+    }
+    .banner h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .banner h3 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .banner h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .platform_type {
+        flex-direction: column;
+        align-items: center;
+    }
+    .platform_type li {
+        width: 70%;
+        margin-bottom: 24px;
+    }
+    .role_card {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    .role_card li {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .client_item {
+        width: 100%;
+    }
+    .client_item li {
+        width: 100%;
+        margin: 0 0 20px 30px;
+    }
+    .client_text {
+        margin-left: 0px;
+        width: 90%;
+    }
+    .client_text h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .client_text p {
+        font-size: 12px;
+    }
+    .praise {
+        background-image: none;
+    }
+    .praise_item li {
+        width: 90%;
+        margin-bottom: 80px;
+    }
+}
+/**pay page***/
+.pay_body {
+    position: relative;
+}
+
+.background_img {
+    background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/banner.svg');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+.pay_wrap {
+    position: relative;
+    max-width: 1085px;
+    margin: 0 auto 134px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.pay_navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 92px;
+    align-items: center;
+}
+.pay {
+    display: block;
+    background: #FF5D50;
+    border-radius: 27px;
+    border: none;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.pay_banner {
+    padding: 190px 0 125px;
+    margin-bottom: 100px;
+}
+.pay_banner h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+
+.pay_banner p {
+    line-height: 24px;
+}
+
+.program>h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.program_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.program_item li {
+    margin-right: 16px;
+}
+
+.program_item a {
+    display: block;
+    padding: 12px 32px;
+    color: #56C4C5;
+    background: white;
+    border: 1px solid #56C4C5;
+    border-radius: 27px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.program_item a:hover {
+    color: white;
+    background: #56C4C5 0% 0% no-repeat
+}
+
+.program_detail {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.program_detail>div {
+    width: 40%;
+    box-shadow: 0px 2px 10px #00000014;
+}
+.clasic {
+    margin-right: 21px;
+}
+.clasic>h2,
+.normal>h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #221E1F;
+    text-align: center;
+    padding: 10px 29px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.clasic>p,
+.normal>p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-bottom: 32px;
+}
+
+.clasic_pay,
+.normal_pay {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 24px;
+    margin-bottom: 32px;
+}
+
+.clasic_pay>li,
+.normal_pay>li {
+    background-color: #F5F5F5;
+    padding: 24px 25px;
+    border-radius: 12px;
+}
+
+.clasic_pay>li>p,
+.normal_pay>li>p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.payitem>p {
+    font-size: 32px;
+    color: #56C4C5;
+    display: inline-block;
+}
+
+.equal>li>p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.month>p {
+    font-size: 32px;
+    color: black;
+    display: inline-block;
+}
+
+.equal {
+    font-size: 29px;
+    font-weight: bold;
+    background-color: white;
+    align-self: center;
+}
+
+.feature {
+    margin-bottom: 32px;
+    padding-left: 32px;
+}
+
+.feature li {
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.feature p {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 29px;
+}
+
+.feature_pay {
+    display: block;
+    background-color: #56C4C5;
+    margin: 0 auto;
+    width: 136px;
+    line-height: 49px;
+    text-align: center;
+    border-radius: 27px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.QA {
+    margin-bottom: 100px;
+}
+
+.QA h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 46px;
+    margin-bottom: 48px;
+}
+
+.QA li {
+    padding: 16px 32px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.QA_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.QA_title img{
+    margin: 0%;
+}
+
+.QA title p {
+    font-size: 18px;
+}
+
+.minus_text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #56C4C5;
+
+}
+.an {
+    padding: 24px 0px;
+    line-height: 1.5;
+    color: #747474;
+}
+
+.pay_footer p {
+    background-color: #F5F5F5;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 16px;
+}
+@media(max-width:767px){
+    .background_img{
+        background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/banner_sm.svg');
+        background-repeat: no-repeat;
+        background-position: 0% 0%;
+        background-size: contain;
+    }
+    .pay_wrap {
+        padding: 0px 25px;
+    }
+    .pay_navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        border-bottom: 2px solid #FFD153;
+        padding: 24px 20px;
+        background-color: white;
+       padding-top: 24px;
+    }
+    .program_item {
+        justify-content: flex-start;
+        overflow: scroll;
+    }
+    .program_item a {
+        padding: 12px 25px;
+        width: 130px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .program_detail{
+        flex-direction: column;
+        align-items: center;
+    }
+    .program_detail>div{
+        width: 95%;
+        margin-right: 0;
+    }
+    .clasic{
+        margin-bottom: 24px;
+    }
+}
+@media(max-width:375px){
+    .pay_wrap {
+        padding: 0px 10px;
+    }
+    .pay_navbar {
+        flex-direction: column;
+    }
+    .program_detail>div{
+        width: 100%;
+    }
+}
