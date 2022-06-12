@@ -399,8 +399,8 @@ a {
     margin-bottom: 16px;
 }
 .banner img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 }
 .platform_type {
     display: flex;
@@ -521,8 +521,8 @@ a {
         padding-top: 50px;
     }
     .banner img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
     .banner h2 {
         font-size: 16px;
