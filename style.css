@@ -660,7 +660,10 @@ a {
     text-decoration: none;
     color: white;
 }
-
+.pay_navbar img{
+    width: 220px;
+    height: 40px;
+}
 .pay_banner {
     padding: 190px 0 125px;
     margin-bottom: 100px;
@@ -889,6 +892,12 @@ a {
         padding: 24px 20px;
         background-color: white;
        padding-top: 24px;
+    }
+    .pay_banner h2 {
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 48px;
+        margin-bottom: 16px;
     }
     .program_item {
         justify-content: flex-start;
