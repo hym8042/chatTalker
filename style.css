@@ -412,6 +412,7 @@ a {
  }
  .wrap {
     padding: 0px 25px;
+    max-width:600px;
 }
 .navbar {
     position: fixed;
