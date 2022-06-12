@@ -10,7 +10,6 @@ a {
     background-repeat: no-repeat, no-repeat;
 }
 .wrap {
-    max-width: 1024px;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -156,7 +155,6 @@ a {
     color: #221E1F;
 }
 .client {
-    max-width: 1024px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -268,7 +266,6 @@ a {
     background-size: 10%;
     padding-left: 70px;
     padding-right:70px;
-    max-width: 1024px;
     margin:0 auto ;
 
 }
@@ -594,7 +591,6 @@ a {
 }
 .pay_wrap {
     position: relative;
-    max-width: 1024px;
     margin: 0 auto 134px;
     padding-left: 16px;
     padding-right: 16px;
