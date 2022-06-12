@@ -52,7 +52,7 @@ a {
     background-repeat: no-repeat, no-repeat;
 }
 .wrap {
-    max-width: 1085px;
+    max-width: 1024px;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -198,7 +198,7 @@ a {
     color: #221E1F;
 }
 .client {
-    max-width: 1085px;
+    max-width: 1024px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -310,7 +310,7 @@ a {
     background-size: 10%;
     padding-left: 70px;
     padding-right:70px;
-    max-width: 1085px;
+    max-width: 1024px;
     margin:0 auto ;
 
 }
@@ -412,6 +412,8 @@ a {
  }
  .wrap {
     padding: 0px 25px;
+    width: 600px;
+    margin: 0 auto;
 }
 .navbar {
     position: fixed;
@@ -636,7 +638,7 @@ a {
 }
 .pay_wrap {
     position: relative;
-    max-width: 1085px;
+    max-width: 1024px;
     margin: 0 auto 134px;
     padding-left: 16px;
     padding-right: 16px;
