@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -227,7 +227,7 @@ a {
     box-shadow: 0px 2px 10px #00000014;
     border-radius: 50%;
     margin-bottom: 24px;
-}role_card
+}
 
 .client_item img {
     width: 52px;
@@ -633,9 +633,9 @@ a {
 }
 .pay_wrap {
     position: relative;
-    margin: 0 auto 134px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 1088px;
+    margin: 0 auto; 
+    padding: 0px 10px;
 }
 .pay_navbar {
     display: flex;
