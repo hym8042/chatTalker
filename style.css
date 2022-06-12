@@ -412,7 +412,6 @@ a {
  }
  .wrap {
     padding: 0px 25px;
-    max-width:600px;
 }
 .navbar {
     position: fixed;
@@ -424,6 +423,7 @@ a {
     padding: 24px 20px;
     background-color: white;
    padding-top: 24px;
+   max-width:600px;
 }
 .banner {
     flex-direction: column;
