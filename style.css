@@ -10,10 +10,10 @@ a {
     background-repeat: no-repeat, no-repeat;
 }
 .wrap {
-    max-width: 1085px;
-    margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    position: relative;
+    max-width: 1088px;
+    margin: 0 auto; 
+    padding: 0px 10px; 
 }
 .navbar {
     display: flex;
