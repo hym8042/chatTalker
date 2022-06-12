@@ -453,7 +453,7 @@ a {
 }
 .platform_type li {
     text-align: center;
-    width: 70%;
+    width: 50%;
     margin-bottom: 30px;
 }
 .role_card {
@@ -462,7 +462,7 @@ a {
     align-items: center;
 }
 .role_card li {
-    width: 70%;
+    width: 60%;
     margin-bottom: 30px;
 }
 .client {
@@ -584,7 +584,7 @@ a {
         align-items: center;
     }
     .platform_type li {
-        width: 70%;
+        width: 50%;
         margin-bottom: 24px;
     }
     .role_card {
@@ -594,7 +594,7 @@ a {
         margin-bottom: 60px;
     }
     .role_card li {
-        width: 90%;
+        width: 70%;
         margin-bottom: 20px;
     }
     .client_item {
